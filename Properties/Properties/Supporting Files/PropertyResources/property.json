@@ -1,0 +1,67 @@
+[
+    {
+        "address": "10,Main Street,Cairns,Qld",
+        "imageName": "PropertyResources/house1.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_house1.jpg",
+        "type": "House",
+        "price": "450,000"
+    },
+    {
+        "address": "22,Wrong Street,Brisbane,Qld",
+        "imageName": "PropertyResources/house2.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_house2.jpg",
+        "type": "House",
+        "price": "500,000"
+    },
+    {
+        "address": "17,Good Street,Rockhampton,Qld",
+        "imageName": "PropertyResources/house3.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_house3.jpg",
+        "type": "House",
+        "price": "750,000"
+    },
+    {
+        "address": "6, 30, Big Road,Mackay,Qld",
+        "imageName": "PropertyResources/unit1.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_unit1.jpg",
+        "type": "Unit",
+        "price": "700,000"
+    },
+    {
+        "address": "4, 4,Good Road,Brisbane,Qld",
+        "imageName": "PropertyResources/unit2.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_unit2.jpg",
+        "type": "Unit",
+        "price": "1,000,000"
+    },
+    {
+        "address": "5,20,Bad Street,Gold Coast,Qld",
+        "imageName": "PropertyResources/unit3.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_unit3.jpg",
+        "type": "Unit",
+        "price": "850,000"
+    },
+    {
+        "address": "1-10,Big Drive,Hervey Bay,Qld",
+        "imageName": "PropertyResources/land1.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_land1.jpg",
+        "type": "Land",
+        "price": "1,200,000"
+    },
+    {
+        "address": "54,Main Road,Bundaberg Central,Qld",
+        "imageName": "PropertyResources/land2.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_land2.jpg",
+        "type": "Land",
+        "price": "1,000,000"
+    },
+    {
+        "address": "32,Good Drive,Banksia Beach,Qld",
+        "imageName": "PropertyResources/land3.jpg",
+        "thumbnailName": "PropertyResources/thumbnail_land3.jpg",
+        "type": "Land",
+        "price": "400,000"
+    }
+]
+ 
+

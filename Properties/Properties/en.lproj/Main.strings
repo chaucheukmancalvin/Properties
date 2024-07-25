@@ -1,0 +1,24 @@
+
+/* Class = "UITabBarItem"; title = "Recipes"; ObjectID = "F98-0F-M6g"; */
+"F98-0F-M6g.title" = "Recipes";
+
+/* Class = "UITabBarItem"; title = "Favourites"; ObjectID = "Lbr-ry-5la"; */
+"Lbr-ry-5la.title" = "Favourites";
+
+/* Class = "UISegmentedControl"; Ug9-KD-bhD.segmentTitles[0] = "All 🍔"; ObjectID = "Ug9-KD-bhD"; */
+"Ug9-KD-bhD.segmentTitles[0]" = "All 🍔";
+
+/* Class = "UISegmentedControl"; Ug9-KD-bhD.segmentTitles[1] = "Meat 🥩"; ObjectID = "Ug9-KD-bhD"; */
+"Ug9-KD-bhD.segmentTitles[1]" = "Meat 🥩";
+
+/* Class = "UISegmentedControl"; Ug9-KD-bhD.segmentTitles[2] = "Veggie 🥬"; ObjectID = "Ug9-KD-bhD"; */
+"Ug9-KD-bhD.segmentTitles[2]" = "Veggie 🥬";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "kmk-8e-ZxL"; */
+"kmk-8e-ZxL.text" = "Detail";
+
+/* Class = "UINavigationItem"; title = "Recipes"; ObjectID = "mRb-ce-vEY"; */
+"mRb-ce-vEY.title" = "Recipes";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "reE-qW-x9h"; */
+"reE-qW-x9h.text" = "Title";

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="96a-7Y-4XV">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--New Properties-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" userLabel="New Properties" customClass="AddPropertyViewController" customModule="Properties" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type the type of the property" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zLP-Mg-WJZ" userLabel="Type Text Field">
+                                <rect key="frame" x="20" y="92" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Xcx-4N-Nq5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a price for your property" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hPm-Ol-b0H" userLabel="Price Text Field">
+                                <rect key="frame" x="20" y="136" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="GPW-cO-weE">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="64"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Add all address detail" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IUZ-4i-lbD" userLabel="Address Text View">
+                                <rect key="frame" x="20" y="180" width="374" height="674"/>
+                                <color key="backgroundColor" systemColor="tertiarySystemFillColor"/>
+                                <color key="textColor" systemColor="tertiaryLabelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="zLP-Mg-WJZ" secondAttribute="trailing" constant="20" id="2eF-fR-ZPv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="IUZ-4i-lbD" secondAttribute="bottom" constant="8" id="H8T-Hs-OpR"/>
+                            <constraint firstItem="zLP-Mg-WJZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="J5W-PR-tIW"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="IUZ-4i-lbD" secondAttribute="trailing" constant="20" id="UtR-xk-o7P"/>
+                            <constraint firstItem="hPm-Ol-b0H" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Wqk-8q-wur"/>
+                            <constraint firstItem="zLP-Mg-WJZ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="hDB-Mh-wPW"/>
+                            <constraint firstItem="hPm-Ol-b0H" firstAttribute="top" secondItem="zLP-Mg-WJZ" secondAttribute="bottom" constant="10" id="hiB-7V-A5H"/>
+                            <constraint firstItem="IUZ-4i-lbD" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hoF-3d-TdX"/>
+                            <constraint firstItem="IUZ-4i-lbD" firstAttribute="top" secondItem="hPm-Ol-b0H" secondAttribute="bottom" constant="10" id="m9h-TE-zFV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hPm-Ol-b0H" secondAttribute="trailing" constant="20" id="nVc-cg-ybx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="New Properties" id="NAL-CZ-0dt">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="utg-Wm-gt3">
+                            <connections>
+                                <action selector="didTabCancel:" destination="Y6W-OH-hqX" id="Myb-mA-26e"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="U7u-MC-AHN">
+                            <connections>
+                                <action selector="didTabSave:" destination="Y6W-OH-hqX" id="uDc-4p-kxE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addressTextView" destination="IUZ-4i-lbD" id="iXg-6a-p6p"/>
+                        <outlet property="priceTextField" destination="hPm-Ol-b0H" id="HQT-4E-Koj"/>
+                        <outlet property="typeTextField" destination="zLP-Mg-WJZ" id="Kce-Cb-5ny"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1059.4202898550725" y="4.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vKG-lg-tDu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="96a-7Y-4XV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="evX-4O-rRn">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="HVp-7H-PWk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C9u-cH-otd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemFillColor">
+            <color red="0.46274509800000002" green="0.46274509800000002" blue="0.50196078430000002" alpha="0.12" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
